@@ -20,21 +20,27 @@ ul li:hover{
   color: #efe76e;
 }
 ul a#hamburger{
-  background-color: white;
+  background-color: #eef2f1;
   text-align: center;
   padding: 10%;
   width: 30%;
   text-decoration: none;
   position: absolute;
-  top: 0;
+  top: 1%;
   right: -30%;
   z-index: 2;
 }
 .mainnav {
   width: 15%;
-  background-color: #193d35;
-  position: relative;
+  left: -15%;
+  height: 100%;
+  background: #193d35;
+  position: fixed;
   z-index: 1;
+  transition: left ease-out 250ms;
+}
+.mainnav.open{
+  left: 0%;
 }
 
 /*Main Section*/
@@ -74,7 +80,7 @@ ul a#hamburger{
 }
 
 .maincontainer{
-  width: 90%;
+  width: 100%;
   background-color: black;
   text-align: coneter;
 }
