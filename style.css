@@ -1,3 +1,133 @@
-.main{
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*Main Section*/
+.blueheader{
   width: 100%;
+  padding: 1%;
+  text-align: center;
+  background-color: #333240;
+  font-size: 40px;
+  color: white;
+}
+ul li {
+  display: block;
+  text-align: center;
+  padding: 2%;
+  margin: 10%;
+  color: white;
+  font-size: 25px;
+}
+ul li:hover{
+  color: #efe76e;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.mainnav {
+  width: 15%;
+  background-color: #193d35;
+}
+.flagcontainer{
+  width: 100%;
+}
+.flag{
+  width: 100%;
+}
+.maincontainer{
+  width: 90%;
+  background-color: red;
+  text-align: coneter;
+}
+.mainimgcontainer{
+  width: 100%;
+  background-image: url(img/main.jpg);
+  background-size: cover;
+  padding: 30%;
+}
+/*Content Section*/
+.divder{
+  margin-top: 0px;
+  background-color: #d0c7a6;
+  width: 100%;
+  padding: 2%;
+}
+.firstcontent{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+.sidebar{
+  width:20%;
+  background-color: #4a262a;
+  position: relative;
+}
+.sidebartxt{
+  padding: 20%;
+  color: white;
+  font-size: 30px;
+}
+.sidebarcontainer {
+  width: 100%;
+}
+.kid{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.content{
+  width:80%;
+  margin-bottom: 20%;
+  padding: 5%;
+  font-size: 40px;
+}
+/*Green Section*/
+
+.greenheader{
+  text-align: center;
+  width: 100%;
+  background-image: url(img/56.jpg);
+  background-size: cover;
+  padding: 25%;
+}
+.green {
+  margin-top: -5px;
+  width: 100%;
+  background-color: #074c3c;
+  padding: 15%;
+  text-align: center;
+}
+.whitetext{
+  background-color: white;
+  text-align: center;
+  padding: 10%;
+}
+/*White Section*/
+.whitesection {
+  width: 100%;
+  padding: 15% 0%;
+  text-align: center;
+}
+.imgcontainer{
+  text-align: center;
+}
+.imgcontainer img {
+  display: inline;
+  clear: both;
+  padding: 2%;
+}
+/*Footer Section*/
+.footer {
+  width: 100%;
+  background-color: #333240;
+  padding: 3%;
 }
