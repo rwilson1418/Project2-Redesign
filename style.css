@@ -10,20 +10,41 @@ html {
 }
 /*Main Section*/
 .blueheader{
+  display: flex;
+  flex-flow: row;
   width: 100%;
-  padding: 1%;
-  text-align: center;
   background-color: #333240;
-  font-size: 40px;
+  background-size: cover;
+  font-size: 50px;
   color: white;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  position: relative;
 }
-ul li {
+.flag{
+  width: 100%;
+}
+.flagcontainer {
+  width: 20%;
+  position: absolute;
+  right: 0;
+}
+.title{
+  position: absolute;
+  text-align: center;
+  right: 18%;
+  width: 80%;
+  padding: 2%;
+  margin: 2%;
+  background-color: #333240;
+}
+nav ul li {
   display: block;
   text-align: center;
-  padding: 2%;
-  margin: 10%;
+  padding: 5%;
   color: white;
   font-size: 25px;
+  background: linear-gradient(transparent,#337566);
 }
 ul li:hover{
   color: #efe76e;
@@ -37,20 +58,15 @@ ul li:hover{
   width: 15%;
   background-color: #193d35;
 }
-.flagcontainer{
-  width: 100%;
-}
-.flag{
-  width: 100%;
-}
+
 .maincontainer{
   width: 90%;
-  background-color: red;
+  background-color: black;
   text-align: coneter;
 }
 .mainimgcontainer{
   width: 100%;
-  background-image: url(img/main.jpg);
+  background-image: url(img/42.png);
   background-size: cover;
   padding: 30%;
 }
@@ -72,9 +88,12 @@ ul li:hover{
   position: relative;
 }
 .sidebartxt{
-  padding: 20%;
+  margin: 5% 0%;
+  padding: 15%;
   color: white;
   font-size: 30px;
+  white-space: normal;
+  overflow:inherit;
 }
 .sidebarcontainer {
   width: 100%;
@@ -87,7 +106,7 @@ ul li:hover{
 .content{
   width:80%;
   margin-bottom: 20%;
-  padding: 5%;
+  padding: 4% 5%;
   font-size: 40px;
 }
 /*Green Section*/
@@ -100,21 +119,21 @@ ul li:hover{
   padding: 25%;
 }
 .green {
-  margin-top: -5px;
   width: 100%;
   background-color: #074c3c;
-  padding: 15%;
+  padding: 10%;
   text-align: center;
 }
 .whitetext{
   background-color: white;
+  font-size: 40px;
   text-align: center;
   padding: 10%;
 }
 /*White Section*/
 .whitesection {
   width: 100%;
-  padding: 15% 0%;
+  padding: 10% 0%;
   text-align: center;
 }
 .imgcontainer{
@@ -125,9 +144,22 @@ ul li:hover{
   clear: both;
   padding: 2%;
 }
+.lastcontent{
+  text-align: center;
+  font-size: 40px;
+  padding: 5%;
+}
+
 /*Footer Section*/
 .footer {
   width: 100%;
   background-color: #333240;
   padding: 3%;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  padding: 0% 3%;
 }
