@@ -8,6 +8,35 @@ html {
   margin: 0px;
   padding: 0px;
 }
+nav ul li {
+  display: block;
+  text-align: center;
+  padding: 5%;
+  color: white;
+  font-size: 35px;
+  background: linear-gradient(transparent,#337566);
+}
+ul li:hover{
+  color: #efe76e;
+}
+ul a#hamburger{
+  background-color: white;
+  text-align: center;
+  padding: 10%;
+  width: 30%;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: -30%;
+  z-index: 2;
+}
+.mainnav {
+  width: 15%;
+  background-color: #193d35;
+  position: relative;
+  z-index: 1;
+}
+
 /*Main Section*/
 .blueheader{
   display: flex;
@@ -38,25 +67,10 @@ html {
   margin: 2%;
   background-color: #333240;
 }
-nav ul li {
-  display: block;
-  text-align: center;
-  padding: 5%;
-  color: white;
-  font-size: 25px;
-  background: linear-gradient(transparent,#337566);
-}
-ul li:hover{
-  color: #efe76e;
-}
 .main {
   width: 100%;
   display: flex;
   flex-flow: row;
-}
-.mainnav {
-  width: 15%;
-  background-color: #193d35;
 }
 
 .maincontainer{
