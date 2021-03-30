@@ -8,12 +8,15 @@ html {
   margin: 0px;
   padding: 0px;
 }
+.fa-bars{
+  color: black;
+}
 nav ul li {
   display: block;
   text-align: center;
   padding: 5%;
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   background: linear-gradient(transparent,#337566);
 }
 ul li:hover{
@@ -62,33 +65,48 @@ ul a#hamburger{
 .flagcontainer {
   width: 20%;
   position: absolute;
-  right: 0;
+  right: 0px;
+  transform: rotate(90deg);
 }
 .title{
   position: absolute;
   text-align: center;
-  right: 18%;
-  width: 80%;
-  padding: 2%;
-  margin: 2%;
-  background-color: #333240;
-}
-.main {
   width: 100%;
-  display: flex;
-  flex-flow: row;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 20%;
+  background-color: #333240;
+  margin-top: 2%;
+  font-size: 60%;
 }
-
 .maincontainer{
   width: 100%;
   background-color: black;
-  text-align: coneter;
+  text-align: center;
 }
-.mainimgcontainer{
+.landimgcontainer{
   width: 100%;
   background-image: url(img/42.png);
   background-size: cover;
   padding: 30%;
+}
+.button {
+  font-size: 40px;
+  width: 40%;
+  background-color: #4a262a;
+  padding: 3%;
+  margin-left: -50%;
+  margin-bottom: -40%;
+  border: 10px double;
+  border-color: #d0c7a6;
+}
+.button a{
+  text-decoration: none;
+  color: White;
+}
+.button a:hover{
+  color: #d0c7a6;
 }
 /*Content Section*/
 .divder{
@@ -103,17 +121,18 @@ ul a#hamburger{
   width: 100%;
 }
 .sidebar{
-  width:20%;
+  width:30%;
   background-color: #4a262a;
   position: relative;
 }
 .sidebartxt{
-  margin: 5% 0%;
+  margin-top: 15%;
   padding: 15%;
   color: white;
   font-size: 30px;
   white-space: normal;
   overflow:inherit;
+  text-align: center;
 }
 .sidebarcontainer {
   width: 100%;
@@ -124,29 +143,26 @@ ul a#hamburger{
   bottom: 0px;
 }
 .content{
-  width:80%;
+  width:70%;
   margin-bottom: 20%;
   padding: 4% 5%;
   font-size: 40px;
 }
 /*Green Section*/
 
-.greenheader{
-  text-align: center;
-  width: 100%;
-  background-image: url(img/56.jpg);
-  background-size: cover;
-  padding: 25%;
-}
 .green {
   width: 100%;
-  background-color: #074c3c;
+  background-color: #4c6b62;
+  background-image: url(img/55.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  opacity: 95%;
   padding: 10%;
   text-align: center;
 }
 .whitetext{
   background-color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   padding: 10%;
 }
@@ -167,7 +183,7 @@ ul a#hamburger{
 .lastcontent{
   text-align: center;
   font-size: 40px;
-  padding: 5%;
+  padding: 10%;
 }
 
 /*Footer Section*/
@@ -180,6 +196,6 @@ ul a#hamburger{
 ul li {
   display: inline-block;
   color: white;
-  font-size: 25px;
+  font-size: 40px;
   padding: 0% 3%;
 }
